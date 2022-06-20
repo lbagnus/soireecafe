@@ -1,0 +1,40 @@
+/*MOBILE*/
+
+footer.contenedorfooter{
+    padding: 1.5%;
+    background-color: #0D0504;
+    height: 50vh;
+    font-size: 0.75em;
+    width: 100%;
+}
+.contenedorfooter{
+    color: white;
+}
+
+div.redes{
+  display: inline-flex;
+  margin-left: 2%;
+
+}
+.imgface{
+    background-image:url(../imagenescafe/bxl-facebook-circle.png);
+    background-size: cover;
+    background-position: center;
+    height: 24px;
+    width: 24px;
+
+}
+.imginsta{
+background-image:url(../imagenescafe/bxl-instagram.png);
+background-size: cover;
+background-position: center;
+height: 24px;
+width: 24px;
+    
+}
+/*ESCRITORIO*/
+@media(min-width:720px){
+    footer.contenedorfooter{
+        width: 100%;
+    } 
+}

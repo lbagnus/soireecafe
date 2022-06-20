@@ -1,0 +1,75 @@
+*{ box-sizing: border-box;
+}
+
+body{
+margin: 0;
+
+}
+
+h1{ font-size: 3em;
+font-weight: bold;
+font-family: 'Josefin Slab', serif;
+}
+h2{
+    margin-left: 5%;
+    padding-left: 1,25em;
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3{
+    margin-left:2% ;
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{font-size: 1em;
+  font-family: Roboto, sans-serif
+}
+.marca{
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Josefin Slab', serif;
+    }
+
+
+.s{
+font-size: 1.7em;
+font-family: 'Caveat', cursive;
+}
+
+.c{
+font-weight: bold;
+font-family: 'Caveat', cursive;
+font-size: 2em;
+}
+
+
+h1.t{
+    font-size: 3.5em;
+}
+
+
+@media(min-width:720px){
+   
+    
+    h1{ font-size: 8em;
+        font-weight: bold;
+        font-family: 'Josefin Slab', serif;
+        }
+        h2{
+            font-size: 2.7em;
+            font-family: 'Quicksand', sans-serif;
+        }
+        h3{
+            font-size: 2em;
+            font-family: 'Quicksand', sans-serif;
+        }
+        
+        p{font-size: 1.25em;
+          font-family: Roboto, sans-serif
+        }   
+} 
+
+   
+    
